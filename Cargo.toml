@@ -1,0 +1,14 @@
+[package]
+name = "apdu-tool"
+version = "0.0.1"
+authors = ["moznion <moznion@mail.moznion.net>"]
+edition = "2021"
+license = "BSD-3-Clause"
+readme = "README.md"
+repository = "https://github.com/moznion/apdu-tool"
+homepage = "https://github.com/moznion/apdu-tool"
+
+[dependencies]
+ts_102_221 = { git = "https://github.com/moznion/ts_102_221-rs" }
+ts_131_102 = { git = "https://github.com/moznion/ts_131_102-rs" }
+
